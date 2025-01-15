@@ -1,0 +1,64 @@
+
+<style>
+    /* .deallocate_btn, .allocate_btn{
+    padding: 0px !important;
+    font-size: 11px !important;
+    width: 61px !important;
+    height: 18px !important;
+    margin: 0px !important;
+    } */
+    /* .custom_table_header{
+  background: #abc4de;
+    font-size: 12px;
+    padding: 2px 5px;
+    color: black;
+    font-weight: 500;
+ } */
+ .custom_table_header p{
+  margin-bottom:0px !important;
+ }
+ .main-container{
+  padding: 0!important;
+ }
+ div.dt-container div.dt-info{
+ font-size: 13px;
+    margin-left: 12px;
+ }
+
+ .table-responsive {
+  padding: 2px;
+}
+
+div.dt-container div.dt-length label { 
+    font-size: 13px; 
+    text-transform: capitalize;
+}
+div.dt-container div.dt-search { 
+    font-size: 13px;
+}
+
+    /* #table_all_jobs{
+    width:100% !important;
+    white-space: nowrap;
+    } */
+
+    .table-responsive {
+    padding: 2px;
+    }
+th{
+    border-color:#fff;
+    border:0.1px;
+}
+
+#table_all_jobs_wrapper .row{
+  margin-top: 3px !important;
+}
+
+div.dt-container div.dt-paging ul.pagination {
+    margin: -2px 0px; 
+}
+ 
+ .filter{
+    width: 68%;
+ }
+</style>

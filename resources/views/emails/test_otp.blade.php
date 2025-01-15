@@ -1,0 +1,1 @@
+OTP:- {{$login_otp_data['otp']}}

@@ -1,0 +1,518 @@
+
+
+.content-wrapper{
+    padding: 0 10px;
+}
+
+thead th{
+    color: black !important;
+    border-bottom: 0px !important;
+}
+
+#control_table td{
+    /* background:#00ffff;     */
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#all_job td{  
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+    line-height: 20px;
+}
+ 
+#clientHistoryTable tr:nth-child(even) {
+    background: #e6e6e9;
+}
+#clientHistoryTable tr:nth-child(odd) {
+    background: #fff;
+}
+
+#jobHistoryTable tr:nth-child(even) {
+    background: #e6e6e9;
+}
+#jobHistoryTable tr:nth-child(odd) {
+    background: #fff;
+}
+
+
+#all_job tr:nth-child(even){
+       background:#00ffff;
+}
+#all_job tr:nth-child(odd){
+       background: #6be1e1;  
+}
+
+#control_table tr:nth-child(even){
+       background:#00ffff;
+}
+#control_table tr:nth-child(odd){
+       background: #6be1e1;  
+}
+
+
+#deleted_job td{
+    /* background:#00ffff;     */
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#transfer_job td{
+    /* background:#00ffff;     */
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+
+#print_job td{
+    background:#00ffff;    
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#job_summary td{
+    background:#00ffff;    
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#modal_table_body td{
+    background:#00ffff;    
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+td.td_driver_photo {
+    width: 15%;
+}
+
+#driver_body td{
+    /* background:#00ffff;     */
+    /* width: unset !important; */
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+    padding: 10px !important;
+    font-size: 12px;
+
+}
+
+.box .main-container{margin-bottom: 70px !important;}
+.suspended1 {
+    padding: 10px;
+}
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #f4f4f4;
+    padding: 10px !important;
+}
+
+#car_type_body td{
+    /* background:#00ffff;     */
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#account_body td{
+    background:#00ffff;    
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+#profile_body td{
+    background:#00ffff;    
+    width: unset !important;
+    border-bottom:0px !important;
+    border-width: 0.1px !important;
+}
+
+
+
+tr{
+    font-size: 12px;
+    border-style:none !important;
+}
+
+td.dly {
+    background-color: green !important;
+}
+
+.account{
+    width:200px !important;
+}
+
+.notes{
+    width: 20px !important;
+}
+
+.job{
+    width: 50px !important;
+}
+
+.time{
+    width: 40px !important;
+}
+
+.source_head,.source{
+  width:unset !important;
+}
+
+.modal_btn:visited{
+    color: white !important;
+}
+
+.driver_th{
+    width:40px !important;
+}
+
+.table-responsive{
+    max-height: 500px !important;
+    overflow-y:scroll !important;
+    width: 97% !important;
+}
+
+
+.driver_td{
+    /* background:#00ffff !important; */
+    text-align: center !important;
+    width:50px !important;
+    padding: 0px !important;
+    text-align: center !important;
+}
+
+table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order, table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order, table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order, table.dataTable thead > tr > td.dt-orderable-asc span.dt-column-order, table.dataTable thead > tr > td.dt-orderable-desc span.dt-column-order, table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order, table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order {
+    position: absolute;
+    right: 0px !important;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+}
+
+.flatpickr-calendar{
+    width:106px !important;
+}
+
+.flatpickr-time{
+    line-height: 25px !important;
+}
+
+.flatpickr-time .numInputWrapper {
+    height: 25px !important;
+   
+}
+
+.source_head{
+    width: 35px;
+}
+
+.source{
+    background:#008080 !important;
+    width: 20px !important;
+    font-weight: 600;
+}
+
+.modal-dialog{
+    width: 100%;
+}
+
+.modal-body{
+    display: flex;
+    align-items: end;
+}
+
+.modal_btn {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 13px !important;
+    /* height: 18px !important; */
+    padding: 0px 0px !important;
+    border-radius: 0px !important;
+    margin-top: 3px;
+    text-align: center !important;
+    margin: auto !important;
+    width: 100% !important;
+    justify-content: center !important;
+    border: none !important;
+}
+
+.table>:not(caption)>*>* {
+    padding:0px ;
+    color: initial;
+    background-color: initial;
+    border-bottom-width: initial !important;
+    box-shadow: initial !important;
+   
+}
+
+#example1_wrapper div{
+    margin-top:1px !important;
+}
+
+.modal-dialog{
+    width: 100% !important;
+    max-width: none !important;
+};
+
+
+span::after{
+    content: none !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.justify_box{
+    justify-content:space-between;
+}
+
+.logo{
+    padding: 0 !important;
+}
+
+.form-select{
+    padding: 0 30px 0 0 !important;
+}
+
+#dt-search-0{
+    height: 23px;
+}
+
+.form-control-sm{
+    min-height: unset !important;
+}
+
+#firstSpan,#secondSpan{
+    width: 100% !important;
+}
+.modal_btn [type=button]:visited {
+    color: #fff !important;
+}
+
+.select2-selection--single{
+ height: 23px !important;
+} 
+
+.select2{
+    margin-bottom: 2px !important;
+}
+
+.select2-results__option {
+    padding: 3px !important;
+    height: 23px !important;
+}
+
+li:focus{
+    text-decoration: wavy;
+}
+.table>:not(caption)>*>* {
+    padding: 0px 10px 0px 10px !important;
+}
+.select2-container--default .select2-selection--single, .select2-selection .select2-selection--single {
+  
+    padding:2px !important;
+
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: black !important;
+    font-weight:400 ;
+    line-height: 0px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 23px !important;
+
+}
+
+.save_btn{
+        margin-top: 7px !important;
+        line-height: 5px ;
+        height: 30px !important;
+        font-size: 12.5px !important;
+        padding: 5px !important;
+}
+
+.form-label{
+    margin-bottom:0px !important;
+}
+
+.new_job_btn{
+    padding:15px;
+    text-decoration: none;
+}
+
+.new_job_btn:hover{    
+    background-color: #367fa9;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    .justify_box{
+        justify-content:start;
+    }
+
+    .day_box{
+        width: 18% !important;
+    }
+}
+
+
+
+
+
+
+/* Search tabs Css */
+.driver_search_field{
+    position: relative;
+}
+
+
+.driver_search_field >span{
+    position: absolute;
+    bottom: 25px;
+}
+
+#example1{
+    width: 100% !important;
+}
+
+.modal-content{
+    background: rgb(217, 207, 207) !important;
+    padding: 30px;
+}
+
+    .modal-dialog {
+        margin-right:5% !important;
+
+    }
+
+@media (max-width: 767px) {
+    .table-responsive {
+      overflow-x: auto !important;
+    }
+
+    .modal-dialog {
+        margin-right:auto !important;
+        margin-left: auto !important;
+
+    }
+  }
+
+
+  /* Driver tab css */
+  .select_box{
+    padding: 0 !important;
+    border-radius: 4px !important;
+  }
+
+  .form-control{
+    padding:0 5px !important;
+    border-radius: 4px !important;
+  }
+
+
+.action-td{
+        display: flex;
+    align-items: baseline;
+    gap: 10px;
+   
+}
+
+tbody#account_body tr td{background-color: transparent;}
+/* .form-hedding h3 */
+.form-hedding h3 {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.text-end{margin-bottom: 20px;}
+.admin_header{background-color: transparent !important; box-shadow: none !important; padding: 10px !important;}
+.admin_header h3{font-size: 20px ;}
+/* .dt-search {
+    margin-right: 30px;
+} */
+.box-body {
+    margin: 10px ;
+}
+
+.driver_header>h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.driver_header{padding: 10px !important; }
+
+input#timePicker {
+    width: 46%;
+}
+
+.job_num p {
+    font-size: 12px;
+}
+
+#campaign_modal { 
+    margin-top: 10%;
+}
+.campaign .modal-content {
+    background: #fff !important;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+} 
+.campaign .modal-header {
+    padding: 0px;
+    border: 0px;
+} 
+form.comment_form {
+    width: 100%;
+}
+.campaign .modal-body{
+    padding: 3px;
+}
+
+
+
+.table tr, .table tr th span, .table tr button{
+     font-size: 14px !important; font-weight: bold !important;
+}
+.new_job_form{
+    font-weight:bold !important;
+    font-size:14px !important;
+}
+.new_job_form span, .new_job_form input, .new_job_form select, .new_job_form select option{
+    font-weight:bold !important;
+    font-size:14px !important;
+}
+*{
+    font-weight:bold !important;
+    font-size:14px !important;
+}
+.sidebar-menu li a span, .sidebar-menu li a{
+    font-weight:normal !important;
+}
+/*.table tr th, .table tr td{padding:5px 0;*/
+.table td{
+   line-height: 34px;
+}
+/*#all_job tr:nth-child(even) td{*/
+/* color:red;*/
+/*}*/
+
+#table_all_jobs td{
+       line-height: 34px;
+       padding: 0 5px;
+}
+
+ 
+ 
